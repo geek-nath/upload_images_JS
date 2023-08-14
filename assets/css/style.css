@@ -1,0 +1,33 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.profile_container {
+  width: 350px;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+h5 {
+  font-weight: 600;
+}
+
+.profile_img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.btn {
+  padding: 13px 25px;
+  border-radius: 15px;
+}

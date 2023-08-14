@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Upload with JavaScript</title>
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="bg-light">
+  <div class="profile_container bg-white shadow-sm border">
+    <h5 class="text-center">Image Upload</h5>
+    <div class="mt-4 d-flex align-items-center flex-column">
+      <div class="profile_img border bg-light" id="profilePic">
+      </div>
+      <div class="mt-3 w-100">
+        <label for="inputFile" class="btn btn-primary w-100 shadow-sm"><i class="fas fa-cloud-upload me-2"></i> Upload
+          Image</label>
+        <input type="file" class="form-control d-none" id="inputFile" accept="image/png, image/jpg, image/jpeg">
+      </div>
+    </div>
+  </div>
+
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/all.min.js"></script>
+  <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
